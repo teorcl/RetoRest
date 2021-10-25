@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Buscar moneda con CodigoISO" skipped="0" tests="2" time="6.15" timestamp="2021-10-24 09:46:52"><testcase name="Buscar usuarios con codigo valido"/><testcase name="Buscar usuarios con codigo invalido"><failure message="1 expectation failed.&#10;JSON path data doesn't match.&#10;Expected: &lt;23&gt;&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path data doesn't match.
+Expected: &lt;23&gt;
+  Actual: null
+</failure><system-err>1 expectation failed.
+  JSON path data doesn't match.
+  Expected: &lt;23&gt;
+  Actual: null
+  &#13;
+  co.com.sofka.stepdefnitions.reqres.api.unknown.UnknownStepDefinition.el_usuario_deberia_obtener_el_resultado_fallido(AddWithCucumberStepDefinition.java:68)&#13;
+  ✽.el usuario deberia obtener el resultado
+  fallido(file:///C:/Users/ThinkPad/Downloads/Services/src/test/resources/features/calculator/add.feature:14)&#13;
+</system-err></testcase></testsuite>
